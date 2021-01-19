@@ -30,8 +30,9 @@ def delete_all_entries(c, conn, table_name):
 
 def sql_fetch_tables(c, conn):
     c.execute('SELECT name from sqlite_master where type= "table"')
-    print(c.fetchall())
+    tables = c.fetchall()
     conn.commit()
+    return tables
             
 
 if __name__ == '__main__':
