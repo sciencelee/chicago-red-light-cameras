@@ -251,8 +251,6 @@ int_chars = {
                     },  
 
     
-##########CONTINUE HERE   
-    
     
     
     
@@ -267,11 +265,17 @@ int_chars = {
                     'underpass':0, 
                     'no_left':0,
                     'angled':0,
-                    'triangle':0,},            
+                    'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.808442084381, 
+                    'long': -87.68418270817706,
+                    'rlc':1,
+                },            
 
 '55TH AND KEDZIE':{'roads':[ '3105 West','5413 South'], 
                     'protected_turn': 4, 
-                    'total_lanes': 8, 
+                    'total_lanes': 4, 
                     'medians': 0, 
                     'exit': 0, 
                     'split':0, 
@@ -280,11 +284,16 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.79349696394781, 
+                    'long': -87.7035924771589,
+                    'rlc':1,
                   },   
     
 '55TH AND WESTERN':{'roads':['2230 West','5420 South'], 
                     'protected_turn':4, 
-                    'total_lanes':8, 
+                    'total_lanes':10, 
                     'medians':0, 
                     'exit':0, 
                     'split':0, 
@@ -293,7 +302,14 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':1,
+                    'turn_lanes':4,
+                    'lat':41.7938619884193, 
+                    'long': -87.6840288869383,
+                    'rlc':1,
                    },    
+    
+    
     
 '55TH and PULASKI':{'roads':['4630 West','5231 South'], 
                     'protected_turn':4, 
@@ -306,6 +322,11 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.79320787763992, 
+                    'long':-87.72319932623644,
+                    'rlc':1,
                    },  
 
 '63RD AND STATE':{'roads':['120 East','6416 South'],
@@ -316,9 +337,15 @@ int_chars = {
                     'split':0, 
                     'way':4, 
                     'underpass':2, 
-                    'no_left':2,
+                    'no_left':3,
                     'angled':0,
-                    'triangle':0,},  
+                    'triangle':0,
+                     'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.780030982447244, 
+                    'long': -87.62531907104398,
+                    'rlc':1,
+                 },  
     
 '71ST AND ASHLAND':{'roads':['1708 West','7132 South'], 
                     'protected_turn':2, 
@@ -330,11 +357,19 @@ int_chars = {
                     'underpass':0, 
                     'no_left':0,
                     'angled':0,
-                    'triangle':0,}, 
+                    'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.76488001015987, 
+                    'long': -87.66377132625337,
+                    'rlc':1,
+                   }, 
+    
+    
     
 '75TH AND STATE':{'roads':['46 East','7539 South'], 
                     'protected_turn': 0,
-                    'total_lanes': 4,
+                    'total_lanes': 7,
                     'medians': 1, 
                     'exit': 1, 
                     'split':0, 
@@ -343,11 +378,16 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':1,
+                    'turn_lanes':2,
+                    'lat':41.758176831597105, 
+                    'long':-87.62474765478217,
+                    'rlc':1,
                  },  
     
 '79TH AND HALSTED':{'roads':['540 West','8357 South'], 
                     'protected_turn': 2, 
-                    'total_lanes': 6, 
+                    'total_lanes': 4, 
                     'medians': 1, 
                     'exit': 0, 
                     'split':0, 
@@ -356,6 +396,11 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.750636180829254, 
+                    'long':-87.64401677347026,
+                    'rlc':1,
                    },        
     
 '79TH AND KEDZIE':{'roads':['2830 West','8220 South'], 
@@ -369,6 +414,11 @@ int_chars = {
                     'no_left':2,
                     'angled':0,
                     'triangle':1,
+                    'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.749764264120316, 
+                    'long': -87.70235605230528,
+                    'rlc':1,
                   },  
     
 '83RD AND STONY ISLAND':{'roads':['1240 East','8216 South'], 
@@ -381,7 +431,13 @@ int_chars = {
                     'underpass':0, 
                     'no_left':2,
                     'angled':0,
-                    'triangle':0,},  
+                    'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':0,
+                    'lat':41.74419990107744, 
+                    'long':-87.58557177283824,
+                    'rlc':1,    
+                    },  
 
     
 '87TH AND VINCENNES':{'roads':['710 West','8940 South'], 
@@ -395,12 +451,17 @@ int_chars = {
                     'no_left':0,
                     'angled':1,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.73603947620386, 
+                    'long': -87.6451722845144,  
+                    'rlc':1,
                      },  
   
     
 '95TH AND STONEY ISLAND':{'roads':['1916 East','9348 South'], 
                     'protected_turn':4, 
-                    'total_lanes': 12, 
+                    'total_lanes': 10, 
                     'medians': 0, 
                     'exit': 0, 
                     'split':0, 
@@ -409,12 +470,17 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.72234059946188, 
+                    'long': -87.58509401949092,
+                    'rlc':1,
                     }, 
 
     
 '99TH AND HALSTED':{'roads':['1916 East'], # only had one road with traffic data, other was lesser used side street.
                     'protected_turn':0, 
-                    'total_lanes': 6, 
+                    'total_lanes': 8, 
                     'medians': 1, 
                     'exit': 1, 
                     'split':0, 
@@ -423,6 +489,11 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':1,
+                    'turn_lanes':1,
+                    'lat':41.7142304858287, 
+                    'long': -87.6430433771611,
+                    'rlc':1,
                    }, 
     
   
@@ -437,6 +508,11 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.94525783878479, 
+                    'long': -87.80701712132965,
+                    'rlc':1,
                      }, 
     
     
@@ -451,12 +527,17 @@ int_chars = {
                     'no_left':0,
                     'angled':1,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.798660621398106, 
+                    'long':-87.74286983575124,
+                    'rlc':1,
                     }, 
    
     
 'ARCHER/NARRAGANSETT AND 55TH':{'roads':['6607 West', '6247 South', '6231 South'],
                     'protected_turn':2, 
-                    'total_lanes':6, 
+                    'total_lanes':7, 
                     'medians':0, 
                     'exit':0, 
                     'split':0, 
@@ -464,12 +545,17 @@ int_chars = {
                     'underpass':0, 
                     'no_left':0,
                     'angled':1,
-                    'triangle':1,
+                    'triangle':0,       
+                    'one_way':1,
+                    'turn_lanes':2,
+                    'lat':41.7923676830723, 
+                    'long':-87.78172238941538,
+                    'rlc':1,
                     }, 
     
 'ASHLAND AND 47TH':{'roads':['1439 West', '4432 South'], 
                     'protected_turn':2, 
-                    'total_lanes':8, 
+                    'total_lanes':10, 
                     'medians':0, 
                     'exit':0, 
                     'split':0, 
@@ -477,12 +563,19 @@ int_chars = {
                     'underpass':0, 
                     'no_left':0,
                     'angled':1,
-                    'triangle':1,
+                    'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.808601109978525, 
+                    'long':-87.66498966366345,
+                    'rlc':1,
                     }, 
+
+    
     
 'ASHLAND AND 63RD':{'roads':['1445 West', '6217 South'], 
                     'protected_turn':2, 
-                    'total_lanes':8, 
+                    'total_lanes':6, 
                     'medians':0, 
                     'exit':0, 
                     'split':0, 
@@ -491,7 +584,14 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.77946203116692, 
+                    'long':-87.66420588453795,
+                    'rlc':1,
                     }, 
+    
+    
 
 'ASHLAND AND 87TH':{'roads':['1428 West', '8212 South'], 
                     'protected_turn':4, 
@@ -504,7 +604,13 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.73576751677386, 
+                    'long':-87.66303437347064,
+                    'rlc':1,
                     },    
+    
     
 'ASHLAND AND 95TH':{'roads':['1500 West', '8822 South'], 
                     'protected_turn':4, 
@@ -517,26 +623,36 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.72121153901308, 
+                    'long':-87.66270136762014,
+                    'rlc':1,
                     },    
 
     
 'ASHLAND AND ARCHER':{'roads':['3229 South', '3247 South'], 
                     'protected_turn':4, 
-                    'total_lanes':8, 
+                    'total_lanes':10, 
                     'medians':0, 
-                    'exit':0, 
+                    'exit':1, 
                     'split':0, 
                     'way':4, 
                     'underpass':0, 
-                    'no_left':0,
+                    'no_left':1,
                     'angled':1,
                     'triangle':1,
+                    'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.83768071620166, 
+                    'long':-87.66574313725317,
+                    'rlc':1,
                     }, 
     
     
 'ASHLAND AND DIVERSEY':{'roads':['1614 West', '2855 North'], 
                     'protected_turn':2, 
-                    'total_lanes':8, 
+                    'total_lanes':6, 
                     'medians':0, 
                     'exit':1, 
                     'split':0, 
@@ -545,6 +661,11 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.93241079469187, 
+                    'long':-87.6683805654791,
+                    'rlc':1,
                     }, 
     
 'ASHLAND AND DIVISION':{'roads':['1925 West', '1345 North'], 
@@ -558,20 +679,30 @@ int_chars = {
                     'no_left':1,
                     'angled':0,
                     'triangle':1,
+                    'one_way':0,
+                    'turn_lanes':3,
+                    'lat':41.90336457242018, 
+                    'long':-87.66748222314992,
+                    'rlc':1,
                     }, 
     
     
 'ASHLAND AND FULLERTON':{'roads':['1434 West', '2435 North'], 
-                    'protected_turn':4, 
-                    'total_lanes':8, 
+                    'protected_turn':3, 
+                    'total_lanes':6, 
                     'medians':0, 
                     'exit':0, 
                     'split':0, 
                     'way':4, 
                     'underpass':0, 
-                    'no_left':0,
+                    'no_left':1,
                     'angled':0,
                     'triangle':1,
+                    'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.92517016340934,
+                    'long':-87.66811354157275,
+                    'rlc':1,
                     },
     
 'ASHLAND AND IRVING PARK':{'roads':['1625 West', '4034 North'], 
@@ -585,12 +716,17 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.954290619024874, 
+                    'long':-87.66902436178863,
+                    'rlc':1,
                     }, 
     
 'ASHLAND AND LAWRENCE':{'roads':['1350 West', '5116 North'], 
                     'protected_turn':4, 
                     'total_lanes':7, 
-                    'medians':0, 
+                    'medians':2, 
                     'exit':0, 
                     'split':0, 
                     'way':4, 
@@ -598,11 +734,16 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,   
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.96888630993549, 
+                    'long':-87.66945280765911,
+                    'rlc':1,
                           }, 
     
 'ASHLAND AND MADISON':{'roads':['1650 West', '133 South'], 
                     'protected_turn':0, 
-                    'total_lanes':8, 
+                    'total_lanes':6, 
                     'medians':0, 
                     'exit':0, 
                     'split':0, 
@@ -611,6 +752,11 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':1,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.88145860901348, 
+                    'long':-87.6668152992439,
+                    'rlc':1,
                           }, 
     
 'AUSTIN AND ADDISON':{'roads':['6050 West', '3521 North'], 
@@ -624,11 +770,16 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.945775882826254, 
+                    'long':-87.7765119083063,
+                    'rlc':1,
                           },  
 
 
 'AUSTIN AND IRVING PARK' :{'roads':['5842 West', '4308 North'], 
-                    'protected_turn':0, 
+                    'protected_turn':1, 
                     'total_lanes':6, 
                     'medians':0, 
                     'exit':0, 
@@ -637,7 +788,12 @@ int_chars = {
                     'underpass':0, 
                     'no_left':0,
                     'angled':0,
-                    'triangle':0,
+                    'triangle':0, 
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.953072200236214, 
+                    'long':-87.77677542193575,
+                    'rlc':1,
                           },  
  
 
@@ -651,10 +807,17 @@ int_chars = {
                     'split':0, 
                     'way':5, 
                     'underpass':2, 
-                    'no_left':0,
+                    'no_left':1,
                     'angled':1,
                     'triangle':1,
-                          },  
+                    'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.93936185895696, 
+                    'long':-87.70761011641432,
+                    'rlc':1,
+                          },
+    
+    
 
 'BLUE ISLAND AND DAMEN' :{'roads':['3317 West', '2358 South'], 
                     'protected_turn':2, 
@@ -667,36 +830,34 @@ int_chars = {
                     'no_left':0,
                     'angled':1,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.848546853150125, 
+                    'long':-87.67575132715736,
+                    'rlc':1,
                           },  
 
 
 'BROADWAY/SHERIDAN AND DEVON' :{'roads':['2307 West', '6629 North'], 
                     'protected_turn':2, 
-                    'total_lanes':8, 
-                    'medians':0, 
+                    'total_lanes':6, 
+                    'medians':1, 
                     'exit':0, 
                     'split':0, 
                     'way':4, 
                     'underpass':0, 
                     'no_left':2,
                     'angled':0,
-                    'triangle':1,
-                          },  
-
-'CALIFORNIA AND DEVON' :{'roads':['2307 West', '6526 North'], 
-                    'protected_turn':0, 
-                    'total_lanes':4, 
-                    'medians':0, 
-                    'exit':0, 
-                    'split':0, 
-                    'way':4, 
-                    'underpass':0, 
-                    'no_left':0,
-                    'angled':0,
-                    'triangle':0,
-                          },  
-
+                    'triangle':1,      
+                    'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.998199885890514, 
+                    'long':-87.66054105812344,
+                    'rlc':1,
+                          },
     
+    
+
 'CALIFORNIA AND DEVON' :{'roads':['2307 West', '6526 North'], 
                     'protected_turn':0, 
                     'total_lanes':4, 
@@ -708,12 +869,17 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
-                          },  
+                    'one_way':0,
+                    'turn_lanes':0,
+                    'lat':41.99756077962825, 
+                    'long':-87.69965148081727,
+                    'rlc':1,
+                          },   
 
  
     
 'CALIFORNIA AND DIVERSEY' :{'roads':['3120 West', '3242 North'], 
-                    'protected_turn':2, 
+                    'protected_turn':1, 
                     'total_lanes':6, 
                     'medians':0, 
                     'exit':1, 
@@ -722,7 +888,12 @@ int_chars = {
                     'underpass':0, 
                     'no_left':0,
                     'angled':0,
-                    'triangle':0,
+                    'triangle':0,  
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.93210858571899, 
+                    'long':-87.69759803174156,
+                    'rlc':1,
                           }, 
     
     
@@ -738,6 +909,11 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.99044074884864,
+                    'long':-87.69938969063557,
+                    'rlc':1,
                           }, 
     
     
@@ -753,13 +929,18 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.867242829858775, 
+                    'long':-87.63925061152662,
+                    'rlc':1,
                           }, 
     
     
     
 'CENTRAL AND ADDISON':{'roads':['5434 West', '3501 North'], 
                     'protected_turn':4, 
-                    'total_lanes':8, 
+                    'total_lanes':4, 
                     'medians':0, 
                     'exit':0, 
                     'split':0, 
@@ -768,6 +949,11 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.94588011521306, 
+                    'long':-87.76676516669148,
+                    'rlc':1,
                           }, 
     
     
@@ -782,6 +968,11 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.938597287063466, 
+                    'long':-87.76651292623237,
+                    'rlc':1,
                           },
     
 'CENTRAL AND CHICAGO':{'roads':['4444 West', '643 North'], 
@@ -795,6 +986,11 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.89487222710923,
+                    'long':-87.76539356181611,
+                    'rlc':1,
                           }, 
     
     
@@ -810,12 +1006,17 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.931270777813495, 
+                    'long':-87.7662609728588,
+                    'rlc':1,
                           }, 
     
     
 'CENTRAL AND FULLERTON':{'roads':['5400 West', '2366 North'], 
                     'protected_turn':4, 
-                    'total_lanes':8, 
+                    'total_lanes':6, 
                     'medians':0, 
                     'exit':0, 
                     'split':0, 
@@ -824,6 +1025,11 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.924000236063975, 
+                    'long':-87.76598003174175,
+                    'rlc':1,
                           }, 
     
     
@@ -837,9 +1043,16 @@ int_chars = {
                     'underpass':0, 
                     'no_left':0,
                     'angled':0,
-                    'triangle':0,
+                    'triangle':0,   
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.95319770552935, 
+                    'long': -87.76700523176682,
+                    'rlc':1,
                           }, 
 
+    
+    
 'CENTRAL AND LAKE':{'roads':['5838 West', '643 North'], 
                     'protected_turn':1, 
                     'total_lanes':6, 
@@ -851,6 +1064,11 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
+                    'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.88771327543673, 
+                    'long':-87.76512721824773,
+                    'rlc':1,
                           },    
 
 'CENTRAL AND MILWAUKEE':{'roads':['5601 West', '5601 North'], 
@@ -864,12 +1082,17 @@ int_chars = {
                     'no_left':0,
                     'angled':1,
                     'triangle':1,
+                    'one_way':1,
+                    'turn_lanes':2,
+                    'lat':41.976494641009644,
+                    'long':-87.7684339958884,
+                    'rlc':1,
                           },  
  
     
     
 'CERMAK AND PULASKI':{'roads':['4042 West', '2119 South'], 
-                    'protected_turn':1, 
+                    'protected_turn':2, 
                     'total_lanes':8, 
                     'medians':2, 
                     'exit':0, 
@@ -879,12 +1102,17 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':1,
+                    'one_way':0,
+                    'turn_lanes':4,
+                    'lat':41.85154623382064, 
+                    'long':-87.72480900841775,
+                    'rlc':1,
                           },  
     
 
 'CHICAGO AND CLARK':{'roads':['54 West', '835 North'], 
                     'protected_turn':1, 
-                    'total_lanes':6, 
+                    'total_lanes':7, 
                     'medians':0, 
                     'exit':0, 
                     'split':0, 
@@ -893,10 +1121,14 @@ int_chars = {
                     'no_left':0,
                     'angled':0,
                     'triangle':0,
-                     'one_way':2,
+                     'one_way':1,
+                    'turn_lanes':1,
+                    'lat':41.89669303519278,
+                    'long': -87.63123059492145,
+                    'rlc':1,
                           },  
 
-    
+#############CONTINUE HERE
 'CICERO AND 47TH':{'roads':['4706 West', '4310 South'], 
                     'protected_turn':4, 
                     'total_lanes':8, 
@@ -909,6 +1141,12 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                   
+                   'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           },  
     
     
@@ -925,6 +1163,12 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                      
+                      'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           },  
     
     
@@ -940,6 +1184,12 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                       
+                       'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           },  
     
 'CICERO AND CHICAGO':{'roads':['4444 West', '1125 North'], 
@@ -954,6 +1204,12 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                      
+                      'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           },  
 
 'CICERO AND DIVERSEY':{'roads':['4632 West', '2845 North'], 
@@ -968,6 +1224,12 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                       
+                       'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
     
@@ -983,6 +1245,12 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                        
+                        'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
 'CICERO AND HARRISON':{'roads':['4631 West', '815 South'], 
@@ -997,6 +1265,12 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                       
+                       'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
     
@@ -1012,6 +1286,12 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':2,
+                  
+                  'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
 'CICERO AND NORTH':{'roads':['4310 South', '4706 West'], # used nearby feeder 47th.  No data for ramp, but lots of traffic (approximation)
@@ -1026,6 +1306,12 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':2,
+                    
+                    'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
 'CICERO AND PETERSON':{'roads':['5800 North', '4850 West'], 
@@ -1040,6 +1326,12 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                       
+                       'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
 'CICERO AND WASHINGTON':{'roads':['25 North', '3935 West'], 
@@ -1054,6 +1346,12 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                         
+                         'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
     
@@ -1069,6 +1367,12 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                       
+                       'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
     
@@ -1084,6 +1388,12 @@ int_chars = {
                     'angled':1,
                     'triangle':0,
                      'one_way':0,
+                         
+                         'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
 'COLUMBUS AND ILLINOIS':{'roads':['745 North', '242 East'], # subsituted E/W w/ Grand (no data), N/S is up by hospital (poor data)
@@ -1098,6 +1408,12 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':3,
+                         
+                         'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
 'CORNELL DRIVE AND 57TH':{'roads':['1730 East', '1621 East'], # MSI.  This intersection is tricky.
@@ -1112,6 +1428,12 @@ int_chars = {
                     'angled':1,
                     'triangle':0,
                      'one_way':0,
+                          
+                          'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
 'CORTLAND AND ASHLAND':{'roads':['1629 North', '1851 West'], # My second least favorite intersection in all of Chicago
@@ -1126,6 +1448,12 @@ int_chars = {
                     'angled':1,
                     'triangle':1,
                      'one_way':1,
+                        
+                        'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           },
     
     
@@ -1142,6 +1470,12 @@ int_chars = {
                     'angled':1,
                     'triangle':1,
                      'one_way':0,
+                          
+                          'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           },
     
 
@@ -1159,6 +1493,12 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                          
+                          'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           },
     
     
@@ -1174,6 +1514,12 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                  
+                  'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
     
@@ -1189,6 +1535,12 @@ int_chars = {
                     'angled':1,
                     'triangle':1,
                      'one_way':0,
+                      
+                      'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           },
     
 'DAMEN AND ELSTON':{'roads':['3249 North', '3137 North'], # Elston then Damen, both north, but at right angle here.  Odd intersect
@@ -1203,6 +1555,12 @@ int_chars = {
                     'angled':0,
                     'triangle':1,
                      'one_way':0,
+                    
+                    'one_way':0,
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           },   
 
     
@@ -1218,6 +1576,12 @@ int_chars = {
                     'angled':0,
                     'triangle':1,
                      'one_way':0,
+                       
+                     
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           },  
     
     
@@ -1233,6 +1597,11 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                       
+                       'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           },  
     
 'DIVERSEY AND WESTERN':{'roads':['3260 North', '1614 West', '3249 North'], 
@@ -1247,6 +1616,11 @@ int_chars = {
                     'angled':1,
                     'triangle':1,
                      'one_way':0,
+                        
+                        'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           },  
     
 'DIVISION AND DAMEN':{'roads':['1508 North', '1925 West'], 
@@ -1261,6 +1635,11 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                      
+                      'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
 
 'DIVISION AND DAMEN':{'roads':['1508 North', '1925 West'], 
@@ -1275,6 +1654,11 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                      
+                      'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
 'ELSTON AND ADDISON':{'roads':['3249 North', '3023 West'], 
@@ -1289,6 +1673,11 @@ int_chars = {
                     'angled':1,
                     'triangle':1,
                      'one_way':0,
+                      
+                      'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
 'ELSTON AND FOSTER':{'roads':['5110 North', '4856 West'], 
@@ -1303,6 +1692,11 @@ int_chars = {
                     'angled':1,
                     'triangle':1,
                      'one_way':1,
+                     
+                     'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
 'ELSTON AND IRVING PARK':{'roads':['4050 North', '3842 West'],   # no info on small street
@@ -1317,6 +1711,11 @@ int_chars = {
                     'angled':1,
                     'triangle':1,
                      'one_way':1,
+                          
+                          'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
     
@@ -1332,6 +1731,11 @@ int_chars = {
                     'angled':1,
                     'triangle':1,
                      'one_way':1,
+                       
+                       'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
 
     
@@ -1347,6 +1751,11 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                       
+                       'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
     
@@ -1362,6 +1771,11 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                    
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
 'FOSTER AND NORTHWEST HIGHWAY':{'roads':['5313 West', '2761 North'],   
@@ -1376,6 +1790,11 @@ int_chars = {
                     'angled':0,
                     'triangle':1,
                      'one_way':0,
+                                
+                                'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
     
@@ -1391,6 +1810,11 @@ int_chars = {
                     'angled':0,
                     'triangle':0,  # big triangle again 150m cutoff
                      'one_way':0,
+                              
+                              'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
     
@@ -1406,6 +1830,11 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                        
+                        'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
     
@@ -1421,6 +1850,11 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                      
+                      'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
     
@@ -1436,6 +1870,11 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                     
+                     'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
     
     
@@ -1451,8 +1890,12 @@ int_chars = {
                     'angled':0,
                     'triangle':0,
                      'one_way':0,
+                    
+                    'turn_lanes':2,
+                    'lat':41.826092744992685,
+                    'long': -87.68459534753565,
+                    'rlc':0,
                           }, 
-########################## ADD STUFF ABOVE HERE
     
 'HALSTED AND 83RD':{'roads':['1101 West', '8357 South'],  
                     'protected_turn':0, 
