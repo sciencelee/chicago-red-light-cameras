@@ -1,6 +1,21 @@
 from sqlite3 import Error
 import sqlite3
 
+def table_info(c, conn):
+    '''
+    prints out all of the columns of every table in db
+    c : cursor object
+    conn : database connection object
+    '''
+    tables = c.execute("SELECT name FROM sqlite_master WHERE type='table';").fetchall()
+    for table_name in tables:
+        table_name = table_name[0]
+        table = pd.read_sql_query("SELECT * from {} LIMIT 0".format(table_name), conn)
+        print(table_name)
+        for col in table.columns:
+            print('\t-' + col)
+        print()
+
 def create_connection(db_file):
     """ create a database connection to a SQLite database """
     conn = None
