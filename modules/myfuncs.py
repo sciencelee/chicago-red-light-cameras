@@ -1,5 +1,6 @@
 from sqlite3 import Error
 import sqlite3
+import pandas as pd
 
 def table_info(c, conn):
     '''
