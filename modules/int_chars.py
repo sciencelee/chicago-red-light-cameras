@@ -3614,16 +3614,16 @@ int_chars = {
                           }, 
 
     
-'STONEY ISLAND AND 79TH':{'roads':['7648 South', '850 East', '8538 South'],  # crazy intersection
-                    'protected_turn':0, 
-                    'total_lanes':14, 
-                    'medians':0, 
+'STONEY ISLAND AND 79TH':{'roads':['7648 South', '850 East', '8538 South'],  # crazy intersection!!
+                    'protected_turn':2, 
+                    'total_lanes':16, 
+                    'medians':2, 
                     'exit':1, 
                     'split':1, 
-                    'way':6, 
+                    'way':8, 
                     'underpass':1, 
                     'no_left':2,
-                    'angled':1,
+                    'angled':2,
                     'triangle':1, 
                     'one_way':2,
                     'turn_lanes':4,
