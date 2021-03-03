@@ -1,7 +1,7 @@
 
 <center> <h1>Chicago Red Light Camera Safety</h1> </center>
 <center> <h3>Do Red Light Cameras Make Chicago Intersections Safer?</h3> </center>
-<img src="images/goog_photo_roadsign.png" width=60% />
+<img src="images/goog_photo_roadsign.png" width=100% />
 
 ## Background
 
