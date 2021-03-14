@@ -23,7 +23,6 @@ A companion web app was built to go along with this project. With it, you can ex
 The repository for the web app can be found [here](https://github.com/sciencelee/rlc_dash)
 
 
-
 ## Big Questions
 - Question 1 - What factors contribute to the number of intersection crashes each day in Chicago?
 - Question 2 - What characteristics of an intersection are associated with greater numbers of crashes?
@@ -46,6 +45,8 @@ Since September 01, 2017, all Chicago police precincts have had mandatory unifor
 
 [Chicago Data Portal](https://www.chicago.gov/city/en/narr/foia/CityData.html)
 
+The sqlite3 database file can build using the 01-build-db.ipynb file (takes about 30 minutes to build).  It can also be downloaded from Google Drive [at this link](https://drive.google.com/file/d/1tQo3N20hWVBrsKv0WiReW1hhu2OxV1O4/view?usp=sharing)
+
 ### Crash types
 As mentioned, Chicago is looking to reduce angle (‘t-bone’) type accidents. The chart below is generated using only red light intersections in Chicago. Angle type accidents account for 16% of all accidents, but are responsible for 37% of the deaths and 31% of the injuries. Turning accidents (which could also be reduced by red light cameras) are the most numerous, and are the second leading cause of deaths and injuries at red lights behind angle crashes.
 
@@ -59,7 +60,7 @@ I sought to do the same in Chicago. Since 2017, a handful of cameras have been t
 <img src="images/intersections_of_interest.png" width=60% />
 
 ## Creating our Dataset
-All data is fetched using SQLite3 queries.  The db file (10 tables) can be built by running code in file 01-build-db to get current stats
+All data is fetched using SQLite3 queries.  The db file (10 tables) can be built by running code in file 01-build-db to get current data.  Older data can be found [at this link](https://drive.google.com/file/d/1tQo3N20hWVBrsKv0WiReW1hhu2OxV1O4/view?usp=sharing)
 
 After starting from more than half a million crashes, the data was filtered to include crashes occurring between September 2017 and January 2021, I was left with over 60,000 intersection related accidents that occurred at one of Chicago’s 3000+ red light intersections.
 
@@ -69,7 +70,7 @@ Other datasets included: congestion, daily traffic, covid cases, and red light v
 
 ## Question 1 - What factors contribute to the number of intersection crashes each day in Chicago?
 
-This question is best answered using model built in **03-crash-regression-models.ipynb**.  
+This question is best answered using model built in **03-crash-regression-models.ipynb** and **06-hourly-crash-model.ipynb**
 
 A linear regression model with an moderately good fit.  This model looked at around 50k intersection related crashes at traffic signals. The data was aggragated for each day.
 
@@ -82,9 +83,16 @@ The features which had the greatest effect on the target (daily crashes) were:
 - Precipitation - For every 8mm of rain/snow, we can expect an additional crash.
 - Congestion - In the worst afternoon rush hour, you would expect 5 additional accidents. In the best afternoon rush hour, you would expect 9 fewer accidents than average.
 
+In file 06, an hourly crash prediction model was built.  The model had an r_squared value of 0.30 for signal accidents, and 0.65 for the much larger dataset wiht all crashes. 
+The most important features for the predcitive model were: 
+- Congestion
+- Temporal data: Year, month, weekday, hour
+- Covid cases (corrects for much of 2020 error)
+- Weather effects (temperature and precipitation)
+
 ## Question 2 - What characteristics of an intersection are associated with greater numbers of crashes?
 
-This question can best be answered with **05-intersection-char-models.ipynb**
+This question can best be answered with **05-intersection-char-models.ipynb** and 
 
 A dataset was constructed specifically for this project. To create this dataset, I went through all 180+ intersections with red light cameras. I cross referenced it with a map at https://data.cityofchicago.org/Transportation/Average-Daily-Traffic-Counts-Map/pf56-35rv and google maps to compile the following data.
 Dataset Features:
@@ -121,6 +129,8 @@ Only a handful of the gathered characteristics meaningfully informed the model. 
 A random forest model was also built, and had a higher score (MSE) than the linear model. It used similar features (violations, lanes, and traffic added the most predictive value to the model)
 
 ## Question 3 - Does the presence of a camera reduce crashes?
+Question partially answered with **07-rlc-natural-experiment.ipynb**
+
 Using the seven intersections with cameras turned on/off during the study timeframe, we constructed a balanced dataset of days on and off.  All cameras have an equal number of on and off days represented in the dataset to minimize bias of any one camera.
 
 The results using a one sided t-test were as follows:
