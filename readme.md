@@ -17,8 +17,10 @@ The origin and intent of the program (as stated on their [website](https://www.c
 A [national study](https://thedaily.case.edu/red-light-cameras-dont-reduce-traffic-accidents-improve-public-safety-analysis/) of red light camera safety was conducted at Case Western University in 2018. Using red light cameras in and around Houston, it concluded that red light cameras reduce the number of dangerous angle crashes, but may also increase the number of rear-end and other types of accidents, thus not improving overall safety. This and other studies, point to cameras actually shifting traffic patterns: drivers tend to brake harder and more abruptly, causing different types of accidents, but not reducing the overall number.
 
 ## Web App
-A web app was built to go along with this project. With it, you can explore detailed Chicago red light camera intersections and crash data. (click image below)
+A companion web app was built to go along with this project. With it, you can explore detailed Chicago red light camera intersections and crash data. (click image below)
 <a href='https://chicago-rlc.herokuapp.com/'> <img src="images/web_app_screenshot.png" width=100%> </a>
+
+The repository for the web app can be found [here](https://github.com/sciencelee/rlc_dash)
 
 
 
