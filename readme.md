@@ -3,6 +3,11 @@
 <center> <h3>Do Red Light Cameras Make Chicago Intersections Safer?</h3> </center>
 <img src="images/goog_photo_roadsign.png" width=100% />
 
+# Project Description
+This data science project uses publicly available crash data for the city of Chicago to determine primary causes of accidents, and whether red light camera enforecement is an effective tool for improving safety. 
+
+The presentation for this project is located [here](https://docs.google.com/presentation/d/1eFsi__NISC8JJPPjVip7kHKdluVn9Q8ymWVP8vWZjoE/edit?usp=sharing)
+
 ## Background
 
 In 2003, Chicago began its red light camera enforcement with two cameras. Since that time, the program has grown to over 350 cameras at more than 150 Chicago intersections.
