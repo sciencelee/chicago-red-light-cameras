@@ -246,14 +246,13 @@ The presence of red light cameras was not a dominant feature in any of our model
 For the intersections studied, we accept the hypotheses that the presence of red light cameras reduces the number of accidents and injuries at those intersections.  This supports the city of Chicago’s reasoning for installing the cameras to improve safety.  
 
 <br>
-<center>
     <figure>
         <a href="http://www.youtube.com/watch?feature=player_embedded&v=qW7lqORBu1k" 
            target="_blank"><img src="http://img.youtube.com/vi/qW7lqORBu1k/1.jpg" 
            alt="Red Light Camera Safety presentation" width="300" height="200" border="10" /></a>
         <figcaption>Project Summary Presentation Video</figcaption>
     </figure>
-</center>
+
 
 
 ## Future Work
