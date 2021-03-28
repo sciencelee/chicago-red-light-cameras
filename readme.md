@@ -101,7 +101,7 @@ Crashes have a lot of noise in the data and are relatively infrequent events at 
 Around 22% of the crashes could be explained by the model.
 
 The features which had the greatest effect on the target (daily crashes) were:
-- Weekends (Sat/Sun) average about 4 additional accidents citywide over a typical weekday. 
+- Weekday (Fri/Sat) average about 4 additional accidents citywide over a typical weekday. Sunday has no peaks from rush hour traffic.
 - Precipitation - For every 8mm of rain/snow, we can expect an additional crash in the city.
 - Congestion - In the worst afternoon rush hour, you would expect 5 more accidents than the mean. In the best afternoon rush hour, you would expect 9 fewer accidents than the mean.
 - Red light violations - There has moderate cross correlation with congestion.  For every 100 violations, we expect an additional accident.  There are typically 1000 and 5000 thousand violations per day in Chicago. 
@@ -111,7 +111,13 @@ The two most useful features were congestion and red light camera violations.  F
 <center>
     <figure>
         <img src="images/crash_vs_congestion.png" width=50% />
-        <figcaption>Peak Congestion correlates with number of crashes daily in Chicago</figcaption>
+        <figcaption>Peak citywide congestion correlates with number of crashes daily in Chicago (r2 = 0.07)</figcaption>
+    </figure>
+</center>
+<br><br>
+<center>
+    <figure>
+        <img src="images/crashes_by_weekday.png" width=50% />
     </figure>
 </center>
 
@@ -222,10 +228,16 @@ There is an extremely small probability of observing a sample mean as large as 0
 
 When performing the same balanced approach and filtering for accident type, the results were mixed and inconclusive. The test power was too small to make a determination if angled accidents were decreased, or rear end accidents were increased. However, all seven intersections had the same or fewer of all types of accidents when red light cameras were present.
 
+The image below is just to illustrate where the expected number of crashes (red line) falls on a normal distribution. 
+
+<img src='images/probability.png'></img>
+
 ## Question 4 - Can we predict the time and/or location of crashes?
-With Random Forest Regressaion, we were able to:
-- Achieve ~65% accuracy for daily crashes citywide (r2=60)
-- Achieve >29% accuracy for daily signal crashes (smaller dataset) with MAE of ~1
+Several different model types were attempted.  A Logistic Regression model to calculate the probability of crashes at individual intersections and can be found in **03a-crash-logreg.ipynb**.  The infrequency and randomness of the crashes made it difficult as a useful predictive tool even when improved using oversampling techniques. 
+
+A model at all red light intersections performed better at predictions.  With Random Forest Regressaion, we were able to:
+- Achieve ~65% accuracy for daily crashes citywide (n=500k crashes, r2=0.60)
+- Achieve >29% accuracy for daily signal crashes (smaller dataset n=60k crashes) with MAE of ~1
 
 #### The most important features for our model:
 - hourly congestion 
@@ -240,19 +252,19 @@ The random forest model had the following stats:
 
 <img src="images/hourly_model.png" width=100% />
 
-<a href="https://chart-studio.plotly.com/~sciencelee/1/#/" alt="Chart Studio Link">Partial model hosted on Chart Studio (Plotly)</a>
+<a href='https://chart-studio.plotly.com/~sciencelee/1/#/'>Partial model in Plotly Chart Studio</a>
 
 ## Conclusion
 The presence of red light cameras was not a dominant feature in any of our predictive or regression models, but when doing population testing (hypothesis testing) for a balanced number of observations with camera on and off, we do accept the alternative hypotheses that the presence of red light .  
 
 For the intersections studied, we accept the hypotheses that the presence of red light cameras reduces the number of accidents and injuries at those intersections.  This supports the city of Chicago’s reasoning for installing the cameras to improve safety.  
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=qW7lqORBu1k" 
-   target="_blank"> 
-   <img src="http://img.youtube.com/vi/qW7lqORBu1k/1.jpg"  alt="Red Light Camera Safety presentation" width="300" border="10" />
-</a>
 <br>
-Project Summary Video
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=qW7lqORBu1k" 
+   target="_blank"><img src="http://img.youtube.com/vi/qW7lqORBu1k/1.jpg" 
+   alt="Red Light Camera Safety presentation" width="300" border="10" /></a>
+<figcaption>Project Summary Presentation Video</figcaption>
 
 
 
