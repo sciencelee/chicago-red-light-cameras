@@ -117,7 +117,7 @@ The two most useful features were congestion and red light camera violations.  F
 <br><br>
 <center>
     <figure>
-        <img src="images/crash_vs_weekday.png" width=50% />
+        <img src="images/crashes_by_weekday.png" width=50% />
     </figure>
 </center>
 
@@ -246,9 +246,28 @@ A model at all red light intersections performed better at predictions.  With Ra
 - year (2020 in particular) 
 - number of COVID-19 cases
  
+
+
+#### Crashes and congestion by hour
+An interesting relationship exists between hourly congestion and the number of accidents when you look at every hour of the week.  
+
+The following two graphs illustrate the relationship.
+Of interest:
+- Rush hour can be seen for each day of the week.  
+- Saturday rush hour is smaller.  
+- Sunday has no apparent rush hour.
+- Friday night has an extended rush hour.
+- Friday and Saturday night have overnight accidents at higher rate.
+- Monday has fewer accidents (Monday holidays)
+
+<img src='images/congestion_by_hour.png' width='80%'>
+
+<img src='images/crashes_by_hour.png' width='80%'>
+
+### Hourly crash model (citywide)
 The image below is a small segment of the 3.25 years of data and predictions in the graph from notebook 06. Included is a 5 day moving average.  This model was trained on 60% of the data.  At least 40% of those shown are predictions on test data.
 
-The random forest model had the following stats:
+A link below is to the partial model live on Chart Studio (Plotly)
 
 <img src="images/hourly_model.png" width=100% />
 
