@@ -117,7 +117,7 @@ The two most useful features were congestion and red light camera violations.  F
 <br><br>
 <center>
     <figure>
-        <img src="images/crashes_by_weekday.png" width=50% />
+        <img src="images/crash_vs_weekday.png" width=50% />
     </figure>
 </center>
 
