@@ -240,6 +240,8 @@ The random forest model had the following stats:
 
 <img src="images/hourly_model.png" width=100% />
 
+<a href="https://chart-studio.plotly.com/~sciencelee/1/#/" alt="Chart Studio Link">Partial model hosted on Chart Studio (Plotly)</a>
+
 ## Conclusion
 The presence of red light cameras was not a dominant feature in any of our predictive or regression models, but when doing population testing (hypothesis testing) for a balanced number of observations with camera on and off, we do accept the alternative hypotheses that the presence of red light .  
 
