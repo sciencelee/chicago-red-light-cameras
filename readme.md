@@ -249,8 +249,9 @@ For the intersections studied, we accept the hypotheses that the presence of red
    target="_blank"> 
    <img src="http://img.youtube.com/vi/qW7lqORBu1k/1.jpg"  alt="Red Light Camera Safety presentation" width="300" border="10" />
 </a>
-Project Summary Video
 <br>
+Project Summary Video
+
 
 
 ## Future Work
