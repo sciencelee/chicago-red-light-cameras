@@ -241,18 +241,21 @@ The random forest model had the following stats:
 <img src="images/hourly_model.png" width=100% />
 
 ## Conclusion
-The presence of red light cameras was not a dominant feature in any of our models, but when doing population testing (hypothesis testing) for a balanced number of observations with camera on and off, we must accept the alternative hyptheses.  
+The presence of red light cameras was not a dominant feature in any of our predictive or regression models, but when doing population testing (hypothesis testing) for a balanced number of observations with camera on and off, we do accept the alternative hypotheses that the presence of red light .  
 
 For the intersections studied, we accept the hypotheses that the presence of red light cameras reduces the number of accidents and injuries at those intersections.  This supports the city of Chicago’s reasoning for installing the cameras to improve safety.  
 
 <br>
-    <figure>
+<figure>
+    <center>
         <a href="http://www.youtube.com/watch?feature=player_embedded&v=qW7lqORBu1k" 
            target="_blank"><img src="http://img.youtube.com/vi/qW7lqORBu1k/1.jpg" 
-           alt="Red Light Camera Safety presentation" width="300" height="200" border="10" /></a>
-        <figcaption>Project Summary Presentation Video</figcaption>
-    </figure>
-
+           alt="Red Light Camera Safety presentation" width="300" border="10" /></a>
+    </center>
+    <center>
+    <figcaption>Project Summary Presentation Video</figcaption>
+    </center>
+</figure>
 
 
 ## Future Work
